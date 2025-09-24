@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Страница — 1" id="uw21AOcht9-WSTQxQsx5">
+    <mxGraphModel dx="868" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FiWg13B5UA5fxya8DTN1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-1" target="FiWg13B5UA5fxya8DTN1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-1" value="Початок" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-2" target="FiWg13B5UA5fxya8DTN1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-2" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Оголосити клас RadioRelay&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(напруга котушки, макс.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;&amp;nbsp;струм, кількість контактів)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-4" target="FiWg13B5UA5fxya8DTN1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-4" value="&lt;p data-end=&quot;306&quot; data-start=&quot;232&quot;&gt;Реалізувати конструктори:&lt;br data-end=&quot;262&quot; data-start=&quot;259&quot;&gt;&lt;br&gt;– за замовчуванням&lt;br data-is-only-node=&quot;&quot; data-end=&quot;286&quot; data-start=&quot;283&quot;&gt;&lt;br&gt;– з параметрами&amp;nbsp;&lt;/p&gt;&lt;p data-end=&quot;306&quot; data-start=&quot;232&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+деструктор&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-7" target="FiWg13B5UA5fxya8DTN1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-7" value="Реалізувати методи класу:&lt;br data-end=&quot;360&quot; data-start=&quot;357&quot;&gt;&lt;br/&gt;– введення даних&lt;br data-is-only-node=&quot;&quot; data-end=&quot;382&quot; data-start=&quot;379&quot;&gt;&lt;br/&gt;– виведення даних&lt;br data-end=&quot;405&quot; data-start=&quot;402&quot;&gt;&lt;br/&gt;– перевірка валідності" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-9" target="FiWg13B5UA5fxya8DTN1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-9" value="Створити кілька об’єктів класу RadioRelay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-13" target="FiWg13B5UA5fxya8DTN1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="770" />
+              <mxPoint x="540" y="850" />
+              <mxPoint x="460" y="850" />
+              <mxPoint x="460" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-13" target="FiWg13B5UA5fxya8DTN1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="770" />
+              <mxPoint x="250" y="850" />
+              <mxPoint x="350" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-13" value="Перевірка за критерієм (напруга / струм)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="720" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-16" target="FiWg13B5UA5fxya8DTN1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-16" value="Вивести&lt;div&gt;результати&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-19" value="ТАК" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="748" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-20" value="НІ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="750" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-21" value="Кінець&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-24" target="FiWg13B5UA5fxya8DTN1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-24" value="Початок" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-26" target="FiWg13B5UA5fxya8DTN1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-26" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Оголосити клас RadioRelay&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(напруга котушки, макс.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;&amp;nbsp;струм, кількість контактів)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-28" target="FiWg13B5UA5fxya8DTN1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-28" value="&lt;p data-end=&quot;306&quot; data-start=&quot;232&quot;&gt;Реалізувати конструктори:&lt;br data-end=&quot;262&quot; data-start=&quot;259&quot;&gt;&lt;br&gt;– за замовчуванням&lt;br data-is-only-node=&quot;&quot; data-end=&quot;286&quot; data-start=&quot;283&quot;&gt;&lt;br&gt;– з параметрами&amp;nbsp;&lt;/p&gt;&lt;p data-end=&quot;306&quot; data-start=&quot;232&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+деструктор&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-30" target="FiWg13B5UA5fxya8DTN1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-30" value="Реалізувати методи класу:&lt;br data-end=&quot;360&quot; data-start=&quot;357&quot;&gt;&lt;br/&gt;– введення даних&lt;br data-is-only-node=&quot;&quot; data-end=&quot;382&quot; data-start=&quot;379&quot;&gt;&lt;br/&gt;– виведення даних&lt;br data-end=&quot;405&quot; data-start=&quot;402&quot;&gt;&lt;br/&gt;– перевірка валідності" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-32" target="FiWg13B5UA5fxya8DTN1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-32" value="Створити кілька об’єктів класу RadioRelay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-35" target="FiWg13B5UA5fxya8DTN1-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="770" />
+              <mxPoint x="540" y="850" />
+              <mxPoint x="460" y="850" />
+              <mxPoint x="460" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-35" target="FiWg13B5UA5fxya8DTN1-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="770" />
+              <mxPoint x="250" y="850" />
+              <mxPoint x="350" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-35" value="Перевірка за критерієм (напруга / струм)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="720" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiWg13B5UA5fxya8DTN1-37" target="FiWg13B5UA5fxya8DTN1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-37" value="Вивести&lt;div&gt;результати&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-38" value="ТАК" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="748" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-39" value="НІ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="750" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FiWg13B5UA5fxya8DTN1-40" value="Кінець&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
