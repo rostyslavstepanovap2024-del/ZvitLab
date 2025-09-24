@@ -1,20 +1,138 @@
-﻿// Lab1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
+#include <string>
+#include <locale>
+using namespace std;
 
-#include <iostream>
+class RadioRelay {
+private:
+    double coilVoltage;        // Напруга котушки
+    double maxCurrent;         // Максимальний струм комутації
+    int contactGroups;         // Кількість груп контактів
 
-int main()
-{
-    std::cout << "Hello World!\n";
+public:
+    // Конструктор за замовчуванням
+    RadioRelay() {
+        coilVoltage = 0.0;
+        maxCurrent = 0.0;
+        contactGroups = 0;
+        cout << "Створено об'єкт RadioRelay (за замовчуванням)" << endl;
+    }
+
+    // Конструктор з параметрами
+    RadioRelay(double voltage, double current, int groups) {
+        setCoilVoltage(voltage);
+        setMaxCurrent(current);
+        setContactGroups(groups);
+        cout << "Створено об'єкт RadioRelay (з параметрами)" << endl;
+    }
+
+    // Деструктор
+    ~RadioRelay() {
+        cout << "Об'єкт RadioRelay знищено" << endl;
+    }
+
+    // Методи встановлення значень з перевіркою
+    void setCoilVoltage(double voltage) {
+        if (voltage > 0)
+            coilVoltage = voltage;
+        else {
+            coilVoltage = 0;
+            cout << "Помилка: напруга має бути > 0!" << endl;
+        }
+    }
+
+    void setMaxCurrent(double current) {
+        if (current > 0)
+            maxCurrent = current;
+        else {
+            maxCurrent = 0;
+            cout << "Помилка: струм має бути > 0!" << endl;
+        }
+    }
+
+    void setContactGroups(int groups) {
+        if (groups > 0)
+            contactGroups = groups;
+        else {
+            contactGroups = 0;
+            cout << "Помилка: кількість груп має бути > 0!" << endl;
+        }
+    }
+
+    // Методи для отримання значень
+    double getCoilVoltage() const { return coilVoltage; }
+    double getMaxCurrent() const { return maxCurrent; }
+    int getContactGroups() const { return contactGroups; }
+
+    // Введення даних
+    void inputData() {
+        double v, c;
+        int g;
+        cout << "Введіть напругу котушки: ";
+        cin >> v;
+        setCoilVoltage(v);
+
+        cout << "Введіть максимальний струм: ";
+        cin >> c;
+        setMaxCurrent(c);
+
+        cout << "Введіть кількість груп контактів: ";
+        cin >> g;
+        setContactGroups(g);
+    }
+
+    // Виведення даних
+    void displayData() const {
+        cout << "=== Інформація про радіореле ===" << endl;
+        cout << "Напруга котушки: " << coilVoltage << " В" << endl;
+        cout << "Максимальний струм: " << maxCurrent << " А" << endl;
+        cout << "Кількість груп контактів: " << contactGroups << endl;
+    }
+
+    // Перевірка за критерієм
+    bool matchesCriteria(double minVoltage, double minCurrent) const {
+        return (coilVoltage >= minVoltage && maxCurrent >= minCurrent);
+    }
+};
+
+int main() {
+    // Фікс для кирилиці
+    setlocale(LC_ALL, "ukr");   // для Linux / MinGW
+    // system("chcp 65001 > nul"); // для Windows-консолі (UTF-8)
+
+    // Об'єкт за замовчуванням
+    RadioRelay r1;
+    r1.inputData();
+    r1.displayData();
+
+    cout << endl;
+
+    // Об'єкт з параметрами
+    RadioRelay r2(12, 5, 3);
+    r2.displayData();
+
+    cout << endl;
+
+    // Перевірка за критерієм
+    double requiredVoltage = 10;
+    double requiredCurrent = 4;
+
+    cout << "Перевірка критерію (U >= " << requiredVoltage
+        << " В, I >= " << requiredCurrent << " А):" << endl;
+
+    if (r1.matchesCriteria(requiredVoltage, requiredCurrent)) {
+        cout << "Об'єкт r1 відповідає критерію" << endl;
+    }
+    else {
+        cout << "Об'єкт r1 не відповідає критерію" << endl;
+    }
+
+    if (r2.matchesCriteria(requiredVoltage, requiredCurrent)) {
+        cout << "Об'єкт r2 відповідає критерію" << endl;
+    }
+    else {
+        cout << "Об'єкт r2 не відповідає критерію" << endl;
+    }
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
